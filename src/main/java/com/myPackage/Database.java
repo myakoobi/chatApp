@@ -22,6 +22,9 @@ private static final String URL =
             System.err.println("❌ Failed to save message:");
             e.printStackTrace();
         }
-        System.out.println("testing done")
+        System.out.println("testing done");
+        System.out.println("testing done");
+        System.out.println("testing done");
+        System.out.println("testing done");
     }
 }
