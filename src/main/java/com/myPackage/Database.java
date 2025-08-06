@@ -6,10 +6,10 @@ import java.sql.PreparedStatement;
 
 public class Database {
     // Update this if your port, DB, or password is different
-private static final String USER = "chatuser";
-private static final String PASSWORD = "Chatpass123!";
-private static final String URL =
+private static final String URL = 
     "jdbc:mysql://localhost:3306/chatapp?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true";
+    private static final String USER = "chatuser";
+    private static final String PASSWORD = "chatpass"; // Your password, if any
 
     public static void saveMessage(String msg) {
         try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD)) {
@@ -22,5 +22,6 @@ private static final String URL =
             System.err.println("❌ Failed to save message:");
             e.printStackTrace();
         }
+        System.out.println("testing done")
     }
 }
