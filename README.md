@@ -9,4 +9,4 @@ It has jenkins setup and connected for the CI/CD and a webhook is connected to t
 
 If you want to see the messages between clients and other clients or servers. run SQL commands in terminal such as use chatapp: Select * From Messages 
 
-please check out the code it is very simple
+please check out the code it is very simple.
